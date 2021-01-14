@@ -1,5 +1,5 @@
 # jekyll-lazy-gist-embedding
-Embed your GitHub gists into posts, by just copy-and-pasting the gist url.
+Embed your [GitHub gists](https://docs.github.com/en/free-pro-team@latest/github/writing-on-github/creating-gists) into posts, by just copy-and-pasting the gist url.
 
 Totally copied from https://github.com/takuti/jekyll-lazy-tweet-embedding/blob/master/LICENSE and made to work with gists.
 
