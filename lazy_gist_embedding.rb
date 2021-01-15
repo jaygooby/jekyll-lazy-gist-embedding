@@ -12,7 +12,6 @@ module Jekyll
     def convert(line)
       r = /^(https?:\/\/gist\.github\.com\/[a-zA-Z0-9_]+\/[a-z0-9]+)$/
       r =~ line ? get_html($~[1] + ".js") : line
-      # r =~ line ? get_html($~[1]) + ".js" : line
     end
 
     def embed(content)
